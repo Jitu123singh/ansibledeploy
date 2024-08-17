@@ -16,8 +16,8 @@
       ansible.builtin.apt:
         name: 
           - apt-transport-https
-          - aspnetcore-runtime-7.0
-          - dotnet-sdk-7.0
+          - aspnetcore-runtime-8.0
+          - dotnet-sdk-8.0
           - unzip
         update_cache: yes
         state: present
